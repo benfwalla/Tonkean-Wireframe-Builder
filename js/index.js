@@ -8,12 +8,12 @@ function run() {
         title: 'Dropper',
         svgIcon: icon24,
         onClick: () => {
-          miro.board.ui.openLibrary('content.html', {title: 'Dropper'})
+          miro.board.ui.openLibrary('Tonkean-Wireframe-Builder/content.html', {title: 'Tonkean Wireframe Builder'})
         },
       },
       getWidgetMenuItems: () => {
         return Promise.resolve({
-          tooltip: 'Hi',
+          tooltip: 'Happy Making!',
           svgIcon: icon24,
           onClick: (widgets) => {
             console.log('onClick', widgets)
