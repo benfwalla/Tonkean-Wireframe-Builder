@@ -9,7 +9,7 @@ const images = [
 
 function getImage(img) {
   return `<div class="draggable-item image-box">
-						<img src="${img.src}" data-image-url="${img.url}">
+						<img src="${img.src}" data-image-url="${img.src}">
 			</div>`
 }
 
