@@ -9,7 +9,7 @@ function run() {
     extensionPoints: {
       bottomBar: {
         title: 'Tonkean Wireframe Builder',
-        svgIcon: tonkIcon,
+        svgIcon: icon24,
         onClick: () => {
           miro.board.ui.openLibrary('Tonkean-Wireframe-Builder/content.html', {title: 'Tonkean Wireframe Builder'})
         },
@@ -17,7 +17,7 @@ function run() {
       getWidgetMenuItems: () => {
         return Promise.resolve({
           tooltip: 'Happy Making!',
-          svgIcon: tonkIcon,
+          svgIcon: icon24,
           onClick: (widgets) => {
             console.log('onClick', widgets)
           },
