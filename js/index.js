@@ -6,7 +6,7 @@ function run() {
     extensionPoints: {
       bottomBar: {
         title: 'Tonkean Wireframe Builder',
-        svgIcon: icon24,
+        svgIcon: 'img/Asset_1.svg',
         onClick: () => {
           miro.board.ui.openLibrary('Tonkean-Wireframe-Builder/content.html', {title: 'Tonkean Wireframe Builder'})
         },
